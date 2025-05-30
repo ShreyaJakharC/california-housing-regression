@@ -1,7 +1,7 @@
 # California Housing Regression Analysis
 
 ## Overview
-This project analyzes the California housing dataset to predict median house values at the block level. I standardized room- and bedroom-count predictors, engineered per-capita features, and built both simple and multiple linear regression models—culminating in a full model that explains ~60% of value variance.
+This project delivers a customized regression pipeline for the California housing dataset, uniquely combining per-capita feature engineering (rooms and bedrooms normalized by population), ocean-proximity encoding, and thorough distribution diagnostics. By blending novel ratio features with standard predictors and assessing skewness/kurtosis, I built models that explain ~60% of block-level home value variance—while flagging collinearity and non-normality for future improvements.
 
 ## Features
 Data Cleaning & Standardization,  Analysis, Single-Predictor Regression, Multiple Regression Model, Collinearity Assessment, and Distribution Diagnostics.
