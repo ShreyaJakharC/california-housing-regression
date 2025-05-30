@@ -4,18 +4,7 @@
 This project analyzes the California housing dataset to predict median house values at the block level. I standardized room- and bedroom-count predictors, engineered per-capita features, and built both simple and multiple linear regression models—culminating in a full model that explains ~60% of value variance.
 
 ## Features
-- **Data Cleaning & Standardization:**  
-  - Handled missing values and scaled “rooms” and “bedrooms” by population for comparability.  
-- **Exploratory Analysis:**  
-  - Correlation matrices and scatter plots to assess predictor usefulness and detect collinearity.  
-- **Single-Predictor Regression:**  
-  - Identified **median_income** as most predictive (R² ≈ 0.46) and **ocean_proximity** as least predictive.  
-- **Multiple Regression Model:**  
-  - Combined all seven predictors to achieve R² ≈ 0.60, demonstrating improved explanatory power.  
-- **Collinearity Assessment:**  
-  - Found moderate multicollinearity between rooms & bedrooms and between population & households.  
-- **Distribution Diagnostics (Extra Credit):**  
-  - Used histograms, skewness, and kurtosis to reveal non-normal predictor and outcome distributions.
+Data Cleaning & Standardization,  Analysis, Single-Predictor Regression, Multiple Regression Model, Collinearity Assessment, and Distribution Diagnostics.
 
 ## Tech & Tools
 - **Language:** Python 3  
